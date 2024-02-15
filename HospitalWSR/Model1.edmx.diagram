@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="958f2f30682f4f1ca8c019904ce97ef1" Name="Diagram1">
+        <EntityTypeShape EntityType="WSR2024Model.Appointment" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Diagnosi" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Doctor" Width="1.5" PointX="3.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Gender" Width="1.5" PointX="3.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Hospitalization" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.MedicalCard" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Passport" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Patient" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.SNIL" Width="1.5" PointX="3.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.sysdiagram" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.Treatment" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSR2024Model.TreatmentType" Width="1.5" PointX="3.75" PointY="17.25" IsExpanded="true" />
+        <AssociationConnector Association="WSR2024Model.FK_Appointment_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Appointment_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Diagnosis_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Treatment_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Patient_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Hospitalization_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Patient_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Treatment_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Patient_Passport" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Patient_SNILS" ManuallyRouted="false" />
+        <AssociationConnector Association="WSR2024Model.FK_Treatment_TreatmentType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
